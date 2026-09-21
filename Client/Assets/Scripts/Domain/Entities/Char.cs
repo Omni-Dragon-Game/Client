@@ -1,3 +1,22 @@
+// ============================================================================
+// Char partial modules:
+// - Char.cs             : Root class, constructor, stats & IMapObject
+// - Char.Fields.cs      : Instance variables, state fields & properties
+// - Char.Tables.cs      : Animation, hat & weapon lookup tables
+// - Char.Mount.cs       : Mount updates, riding states & drawing
+// - Char.Targeting.cs   : Target selection, mob/char search & focus logic
+// - Char.Movement.cs    : Movement physics (run, jump, fall, fly, stand)
+// - Char.Navigation.cs  : Waypoints, moveTo, autoJump & reset points
+// - Char.Skills.cs      : Skill selection, templates & charge skills
+// - Char.Combat.cs      : Attack dispatch, damage, death & revive
+// - Char.Items.cs       : Inventory, box sorting, potions & equipment
+// - Char.Appearance.cs  : Fusion, parts transforms, eyes & auras
+// - Char.Effects.cs     : Status effects, super effects & dust particles
+// - Char.Overhead.cs    : Overhead name, HP/MP bar, party colors & title
+// - Char.Paint.cs       : Master paint, character body parts & bag
+// - Char.Update.cs      : Game-loop frame update & tick handlers
+// ============================================================================
+
 using System;
 using Assets.src.e;
 using Assets.src.g;
@@ -5,7 +24,6 @@ using Assets.src.g;
 public partial class Char : IMapObject
 {
     // All fields declared in Char.Fields.cs and Char.Tables.cs
-
 
     public Char()
     {
@@ -41,8 +59,6 @@ public partial class Char : IMapObject
             Cout.LogError("Loi char level percent: " + ex.ToString());
         }
     }
-
-    // getdx_dySkill extracted to Char.Skills.cs
 
     public static void taskAction(bool isNextStep)
     {
@@ -217,71 +233,6 @@ public partial class Char : IMapObject
         myChar = null;
     }
 
-    // bagBoxSort_useItem extracted to Char.Items.cs
-
-    // getSkill_isPunchKick extracted to Char.Skills.cs
-
-    // Lifecycle & frame update logic extracted to Char.Update.cs
-
-
-    // updateSkillPaint extracted to Char.Skills.cs
-
-    // resetPoints_autoJump extracted to Char.Navigation.cs
-
-
-    // superEff_soundVolumn extracted to Char.Effects.cs
-
-
-    // defaultParts extracted to Char.Items.cs
-
-    // skillSelection_ChargeSkills extracted to Char.Skills.cs
-
-    // setAttack extracted to Char.Combat.cs
-
-    // isOutX_createShadow extracted to Char.Overhead.cs
-
-    // setMabuHold extracted to Char.Effects.cs
-
-    // paintMaster extracted to Char.Paint.cs
-
-    // paint_map_line extracted to Char.Overhead.cs
-
-    // paintSuperEffects extracted to Char.Effects.cs
-
-    // hp_name_shadow extracted to Char.Overhead.cs
-
-    // charBodyParts_render extracted to Char.Paint.cs
-
-    // moveTo extracted to Char.Navigation.cs
-
-    // getcharInjure extracted to Char.Combat.cs
-
-    // isMagicTree extracted to Char.Overhead.cs
-
-    // searchItem() extracted to Char.Targeting.cs
-
-    // searchFocus() extracted to Char.Targeting.cs
-
-    // ClearFocus() extracted to Char.Targeting.cs
-
-    // isCharInScreen() extracted to Char.Targeting.cs
-
-    // isAttacPlayerStatus() extracted to Char.Targeting.cs
-
-    // setHoldChar() extracted to Char.Targeting.cs
-
-    // setHoldMob() extracted to Char.Targeting.cs
-
-    // findNextFocusByKey() extracted to Char.Targeting.cs
-
-    // deFocusNPC() extracted to Char.Targeting.cs
-
-    // updateCharInBridge extracted to Char.Navigation.cs
-
-    // inventoryUtils_potions extracted to Char.Items.cs
-
-    // isLang_isMeCanAttack extracted to Char.Combat.cs
-
     public void clearTask()
     {
         myCharz().taskMaint = null;
@@ -315,38 +266,10 @@ public partial class Char : IMapObject
         return 24;
     }
 
-    // FocusManualTo() extracted to Char.Targeting.cs
-
-    // stopMoving extracted to Char.Navigation.cs
-
-    // cancelAttack extracted to Char.Combat.cs
-
     public bool isInvisible()
     {
         return false;
     }
-
-    // focusToAttack() extracted to Char.Targeting.cs
-
-    // addDustEff extracted to Char.Effects.cs
-
-    // flagPK extracted to Char.Overhead.cs
-
-    // removeStatusEffects extracted to Char.Effects.cs
-
-    // partTransforms extracted to Char.Appearance.cs
-
-    // effChar_customEffects extracted to Char.Effects.cs
-
-    // checkLuong extracted to Char.Items.cs
-
-    // eyeAuraHat extracted to Char.Appearance.cs
-
-    // isFrNgang extracted to Char.Paint.cs
-
-    // sendNewAttack extracted to Char.Combat.cs
-
-    // skillPaint_NEW extracted to Char.Skills.cs
 
     public Char clone()
     {
@@ -372,8 +295,6 @@ public partial class Char : IMapObject
         }
         return @char;
     }
-
-    // containsCaiTrang extracted to Char.Items.cs
 
     public void printlog()
     {
@@ -426,5 +347,4 @@ public partial class Char : IMapObject
         empty = text + "isInjure " + isDie + "\n";
     }
 
-    // setDanhHieu extracted to Char.Overhead.cs
 }
