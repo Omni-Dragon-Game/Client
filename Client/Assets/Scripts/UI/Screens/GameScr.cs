@@ -1,3 +1,19 @@
+// ============================================================================
+// GameScr partial modules:
+// - GameScr.cs          : Root class, constructor, master paint & paintEffect
+// - GameScr.Fields.cs   : State fields, static vectors & constants
+// - GameScr.Input.cs    : Keyboard navigation, hotkeys & key alerts
+// - GameScr.Touch.cs    : Touch input, dragging, click dispatch & gamepad
+// - GameScr.Skills.cs   : Skill shortcuts, casting, attacks & validation
+// - GameScr.Targeting.cs: Mob/NPC focus, arrows, PvP & trading
+// - GameScr.Actions.cs  : actionPerform, menus, dialogs & chat callbacks
+// - GameScr.Camera.cs   : Camera tracking, map backgrounds & Shenron sky
+// - GameScr.HUD.cs      : HP bars, touch controls, title & status HUD
+// - GameScr.Popups.cs   : Flying text, splash, VIP chat & server popups
+// - GameScr.Data.cs     : Resource readers (parts, effects, darts) & init
+// - GameScr.Update.cs   : Frame update loop & autoPlay logic
+// ============================================================================
+
 using System;
 using System.Threading;
 using Assets.src.g;
@@ -7,8 +23,6 @@ using UnityEngine;
 
 public partial class GameScr : mScreen, IChatable
 {
-    // All variable and constant declarations extracted to GameScr.Fields.cs
-
 
     public GameScr()
     {
@@ -43,24 +57,6 @@ public partial class GameScr : mScreen, IChatable
             isHaveSelectSkill = true;
         }
     }
-    // dataInit_readers extracted to GameScr.Data.cs
-
-    // clan_playerMenu extracted to GameScr.Actions.cs
-
-    // attackValidation extracted to GameScr.Skills.cs
-
-    // keyboardInput extracted to GameScr.Input.cs
-
-    // isVsMap extracted to GameScr.Camera.cs
-
-    // drag_click_tapTargets extracted to GameScr.Touch.cs
-
-    // Frame update and autoPlay loop extracted to GameScr.Update.cs
-
-
-    // updateKeyChatPopUp extracted to GameScr.Input.cs
-
-    // isRongThanMenu extracted to GameScr.Camera.cs
 
     public void paintEffect(mGraphics g)
     {
@@ -86,10 +82,6 @@ public partial class GameScr : mScreen, IChatable
             effect3.paint(g);
         }
     }
-
-    // paintSky extracted to GameScr.Camera.cs
-
-    // paintCapcha extracted to GameScr.Popups.cs
 
     public override void paint(mGraphics g)
     {
@@ -609,13 +601,4 @@ public partial class GameScr : mScreen, IChatable
         EffectManager.hiEffects.paintAll(g);
     }
 
-    // popups_chatVip extracted to GameScr.Popups.cs
-
-    // phuBan_hpBars extracted to GameScr.HUD.cs
-
-    // effectEnd_screenChecks extracted to GameScr.Data.cs
-
-    // paint_xp_bar extracted to GameScr.HUD.cs
-
-    // paint_ios_bg extracted to GameScr.Camera.cs
 }
