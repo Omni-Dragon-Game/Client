@@ -8,8 +8,10 @@
 **/[Uu]ser[Ss]ettings/
 **/[Mm]emoryCaptures/
 
-# Visual Studio / VS Code
-.vs/
+# Visual Studio / VS Code / JetBrains
+**/.vs/
+**/.idea/
+**/.vscode/
 *.userprefs
 *.pidb
 *.booproj
@@ -18,11 +20,18 @@
 *.mdb
 *.opendb
 *.VC.db
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+.vsconfig
 
 # Build results
-bin/
-obj/
-target/
+**/bin/
+**/obj/
+**/target/
+*.orig
+*.bak
 
 # OS generated
 Thumbs.db
