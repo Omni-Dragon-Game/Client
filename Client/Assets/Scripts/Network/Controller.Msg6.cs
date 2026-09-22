@@ -73,10 +73,6 @@ public partial class Controller
                             return;
                         }
                         Mob mob9 = (Mob)GameScr.vMob.elementAt(num189);
-                        if (mob9.status != 0 && mob9.status != 1)
-                        {
-                            return;
-                        }
                         mob9.sys = msg.reader().readByte();
                         mob9.levelBoss = msg.reader().readByte();
                         if (mob9.levelBoss != 0)
@@ -85,6 +81,12 @@ public partial class Controller
                         }
                         mob9.x = mob9.xFirst;
                         mob9.y = mob9.yFirst;
+                        mob9.xSd = mob9.xFirst;
+                        mob9.ySd = mob9.yFirst;
+                        mob9.p1 = 0;
+                        mob9.p2 = 0;
+                        mob9.p3 = 0;
+                        mob9.isDie = false;
                         mob9.status = 5;
                         mob9.injureThenDie = false;
                         mob9.hp = msg.readLong();

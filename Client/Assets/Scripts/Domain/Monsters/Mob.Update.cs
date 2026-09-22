@@ -226,7 +226,7 @@ public partial class Mob : IMapObject
                 {
                     frame = 11;
                 }
-                if (isDie)
+                if (isDie || y > TileMap.pxh + 50 || p1 > 20)
                 {
                     isDie = false;
                     if (isMobMe)
@@ -241,6 +241,7 @@ public partial class Mob : IMapObject
                     }
                     p1 = 0;
                     p2 = 0;
+                    p3 = 0;
                     x = (y = 0);
                     hp = getTemplate().hp;
                     status = 0;
@@ -282,7 +283,10 @@ public partial class Mob : IMapObject
                     p1++;
                     if (p1 > 40 + mobId % 5)
                     {
-                        y -= 2;
+                        if (arrMobTemplate[templateId].type == 4 || arrMobTemplate[templateId].type == 5)
+                        {
+                            y -= 2;
+                        }
                         status = 5;
                         p1 = 0;
                     }
@@ -385,7 +389,7 @@ public partial class Mob : IMapObject
             if ((injureBy != null && injureThenDie) || hp == 0)
             {
                 status = 1;
-                p2 = injureBy.cdir << 1;
+                p2 = (injureBy != null) ? (injureBy.cdir << 1) : (-dir);
                 p1 = -3;
                 p3 = 0;
             }
@@ -617,7 +621,15 @@ public partial class Mob : IMapObject
                         {
                             b--;
                         }
-                        x += b * dir;
+                        int nextX = x + b * dir;
+                        if (!TileMap.tileTypeAt(nextX, y + 2, 2) && TileMap.tileTypeAt(x, y + 2, 2))
+                        {
+                            dir = -dir;
+                        }
+                        else
+                        {
+                            x = nextX;
+                        }
                         if (x > xFirst + arrMobTemplate[templateId].rangeMove)
                         {
                             dir = -1;
@@ -625,6 +637,10 @@ public partial class Mob : IMapObject
                         else if (x < xFirst - arrMobTemplate[templateId].rangeMove)
                         {
                             dir = 1;
+                        }
+                        if (!TileMap.tileTypeAt(x, y, 2) && TileMap.tileTypeAt(x, yFirst, 2))
+                        {
+                            y = yFirst;
                         }
                         if (Res.abs(x - Char.myCharz().cx) < 40 && Res.abs(x - xFirst) < arrMobTemplate[templateId].rangeMove)
                         {
