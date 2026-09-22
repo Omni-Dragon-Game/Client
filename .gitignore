@@ -61,3 +61,11 @@ $RECYCLE.BIN/
 
 # Agents / AI
 **/.agents/
+
+**/.git_bak/
+
+# Independent repositories / sub-projects
+/Server/
+/Database/
+/GMTool/
+/Portal/
