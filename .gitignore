@@ -30,8 +30,21 @@
 **/bin/
 **/obj/
 **/target/
+**/out/
 *.orig
 *.bak
+*.jar
+
+# Node.js / Next.js
+**/node_modules/
+**/.next/
+**/.pnp/
+*.tsbuildinfo
+
+# Logs
+**/logs/
+**/log/
+*.log
 
 # OS generated
 Thumbs.db
@@ -40,6 +53,11 @@ $RECYCLE.BIN/
 .DS_Store
 
 # Secrets & Local Configurations
+**/.env
+**/.env.*
 **/application-dev.yml
 **/application-local.yml
 **/backup/
+
+# Agents / AI
+**/.agents/
