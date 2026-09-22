@@ -222,7 +222,7 @@ public partial class ModFunc
 
     public static Image imgBg = null;
 
-    public static bool isReadInt = true;
+    public static bool isReadInt = false;
 
     public static int musicCount = 0;
 
