@@ -281,7 +281,7 @@ public partial class Panel
                         }
                     }
                 }
-                mFont2.drawString(g, "[" + itemInvenNew.template.id + "] " + itemInvenNew.template.name + text, xScroll + 5, num14 + 1, 0);
+                mFont2.drawString(g, itemInvenNew.template.name + text, xScroll + 5, num14 + 1, 0);
                 string text2 = string.Empty;
                 if (itemInvenNew.itemOption != null)
                 {
@@ -487,7 +487,7 @@ public partial class Panel
                         }
                     }
                 }
-                string itemNamePrefix = isBody ? ("[" + getBodySlotName(itemIndex) + "] ") : ("[" + item3.template.id + "] ");
+                string itemNamePrefix = isBody ? ("[" + getBodySlotName(itemIndex) + "] ") : "";
                 mFont4.drawString(g, itemNamePrefix + item3.template.name + text3, num23 + 5, num24 + 1, 0);
                 string text4 = string.Empty;
                 if (item3.itemOption != null)
