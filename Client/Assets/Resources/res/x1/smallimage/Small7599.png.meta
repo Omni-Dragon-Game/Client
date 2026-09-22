@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 07472064efb93b047a3f9bc060863a54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1637166767841227066
+    second: Small7599_0
+  - first:
+      213: 802155526855101387
+    second: Small7599_1
+  - first:
+      213: -1526505151805926766
+    second: Small7599_2
+  - first:
+      213: -4307785081785592737
+    second: Small7599_3
+  - first:
+      213: -5657244751749479495
+    second: Small7599_4
+  - first:
+      213: 416783757357625174
+    second: Small7599_5
+  - first:
+      213: -2574161909532741997
+    second: Small7599_6
+  - first:
+      213: 7725030412159790784
+    second: Small7599_7
+  - first:
+      213: 1683541349748938772
+    second: Small7599_8
+  - first:
+      213: -5684338867212605314
+    second: Small7599_9
+  - first:
+      213: -2656532929702235748
+    second: Small7599_10
+  - first:
+      213: -7882266342845764880
+    second: Small7599_11
+  - first:
+      213: 5684816424570549318
+    second: Small7599_12
+  - first:
+      213: -3756884255670828065
+    second: Small7599_13
+  - first:
+      213: 7862591859126998332
+    second: Small7599_14
+  - first:
+      213: 4559873075161189557
+    second: Small7599_15
+  - first:
+      213: -598924952721662296
+    second: Small7599_16
+  - first:
+      213: -1825818686626347691
+    second: Small7599_17
+  - first:
+      213: 505558912510211997
+    second: Small7599_18
+  - first:
+      213: 623307583024957711
+    second: Small7599_19
+  - first:
+      213: 2745600358983986672
+    second: Small7599_20
+  - first:
+      213: -7342512820370612975
+    second: Small7599_21
+  - first:
+      213: -5475245631426662331
+    second: Small7599_22
+  - first:
+      213: -3990577090501518502
+    second: Small7599_23
+  - first:
+      213: -8664498869097301060
+    second: Small7599_24
+  - first:
+      213: 7317527783501516178
+    second: Small7599_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Small7599_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 591
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a313043508268b610800000000000000
+      internalID: 1637166767841227066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 588
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb80d0a334d12b00800000000000000
+      internalID: 802155526855101387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 565
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292ddc6f6a3c0dae0800000000000000
+      internalID: -1526505151805926766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 575
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54517faa4ca734c0800000000000000
+      internalID: -4307785081785592737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 553
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b387842fdd6d71b0800000000000000
+      internalID: -5657244751749479495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 560
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f247d7e96b8c500800000000000000
+      internalID: 416783757357625174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 547
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ea5fbb16db64cd0800000000000000
+      internalID: -2574161909532741997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 543
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ceafdb1b32d43b60800000000000000
+      internalID: 7725030412159790784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 412
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418977410f32d5710800000000000000
+      internalID: 1683541349748938772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 419
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78a8dccaeb2d11b0800000000000000
+      internalID: -5684338867212605314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 390
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9178f61069122bd0800000000000000
+      internalID: -2656532929702235748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 365
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa29a1f5809c9290800000000000000
+      internalID: -7882266342845764880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 399
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64475df2b6684ee40800000000000000
+      internalID: 5684816424570549318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 376
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd38b7e9caddcdbc0800000000000000
+      internalID: -3756884255670828065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 233
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35942953a98d1d60800000000000000
+      internalID: 7862591859126998332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 243
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcc9d1176ce74f30800000000000000
+      internalID: 4559873075161189557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 207
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae58e1cde030b7f0800000000000000
+      internalID: -598924952721662296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 219
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555cd5ff39369a6e0800000000000000
+      internalID: -1825818686626347691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 187
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d973431072b140700800000000000000
+      internalID: 505558912510211997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 32
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f098200c1fe66a800800000000000000
+      internalID: 623307583024957711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_20
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 51
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdec6ccaf45a1620800000000000000
+      internalID: 2745600358983986672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_21
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dde0ffd772a1a90800000000000000
+      internalID: -7342512820370612975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_22
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 12
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540fdc87b150404b0800000000000000
+      internalID: -5475245631426662331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 23
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b58d7774f9e98c0800000000000000
+      internalID: -3990577090501518502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_24
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 11
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb7eae5f2481c780800000000000000
+      internalID: -8664498869097301060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small7599_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 9
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dc8a9cfb41d8560800000000000000
+      internalID: 7317527783501516178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Small7599_0: 1637166767841227066
+      Small7599_1: 802155526855101387
+      Small7599_10: -2656532929702235748
+      Small7599_11: -7882266342845764880
+      Small7599_12: 5684816424570549318
+      Small7599_13: -3756884255670828065
+      Small7599_14: 7862591859126998332
+      Small7599_15: 4559873075161189557
+      Small7599_16: -598924952721662296
+      Small7599_17: -1825818686626347691
+      Small7599_18: 505558912510211997
+      Small7599_19: 623307583024957711
+      Small7599_2: -1526505151805926766
+      Small7599_20: 2745600358983986672
+      Small7599_21: -7342512820370612975
+      Small7599_22: -5475245631426662331
+      Small7599_23: -3990577090501518502
+      Small7599_24: -8664498869097301060
+      Small7599_25: 7317527783501516178
+      Small7599_3: -4307785081785592737
+      Small7599_4: -5657244751749479495
+      Small7599_5: 416783757357625174
+      Small7599_6: -2574161909532741997
+      Small7599_7: 7725030412159790784
+      Small7599_8: 1683541349748938772
+      Small7599_9: -5684338867212605314
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
